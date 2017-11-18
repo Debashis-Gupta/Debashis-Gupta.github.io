@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <!-- Introducing the font-awesome embeded code -->
+
+    <script src="https://use.fontawesome.com/522bcc605f.js"></script>
+
+    <!-- Jquery for making image sliding -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $('.slider').bxSlider({
+      mode:'horizontal',
+      auto:true,
+    });
+  });
+</script>
+<!-- End of image sliding -->
+    <title>My Ecomerce Cart</title>
+  </head>
+  <body>
+
+<!-- Full code wrapper -->
+  <div id="wrapper">
+    <!-- Header -->
+    <div class="header">
+<!--  Subheader-->
+      <div id="subheader">
+
+          <div class="container">
+            <p id="p">World Fastest Online shopping Cart</p>
+        <a href="#">Guest</a>
+        <a href="#">Consumer</a>
+        <a href="#">Download App</a>
+        <a href="#">Help</a>
+          </div>
+      </div>
+      <!-- End of subheader -->
+      <!--Start of Main-Header  -->
+        <div id="main-header">
+          <div id="logo">
+              <span id="first">Mina</span>
+              <span id="second">.com</span>
+          </div>
+          <!--End of logo  -->
+          <!-- Start of search area -->
+          <div id="search">
+            <form  action="index.html" method="post">
+              <input class="place" type="text" name="search" placeholder="Search here">
+              <input class="sub-btn" type="submit" name="submit" value="SEARCH">
+            </form>
+          </div>
+          <!-- Cart and Login button -->
+          <div id="cart-log">
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+
+          </div>
+          <!-- End of search area -->
+        </div>
+        <!-- End of main-header -->
+    </div>
+    <!-- End of header class -->
+    <!-- Navigation Bar -->
+    <div id="nabbar">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About us</a>
+          <a href="#">New Arrival</a>
+        <a href="#">Locate</a>
+          <a href="#">Accesories</a>
+            <a href="#">Product</a>
+        <a href="#">Deal</a>
+        <a href="#">Order</a>
+      </nav>
+
+    </div>
+
+
+    <!-- End of navigation bar -->
+    <!--Image slider  -->
+    <div style="margin-top:123px;" >
+          <ul class="slider">
+            <li><img  src="image/s1.png" alt=""></li>
+            <li><img  src="image/s2.png" alt=""></li>
+            <li><img src="image/s3.png" alt=""></li>
+            <li><img src="image/s4.png" alt=""></li>
+          </ul>
+    </div>
+    <!--End of image slider  -->
+    <!-- Design of catalog  -->
+    <div class="container">
+    <!--Creating catbox  -->
+    <!-- Heading block -->
+    <div id="head-block">
+      <h2>Catagory</h2>
+    </div>
+    <!-- End of heading block  -->
+        <a href="#">
+          <div class="catbox">
+            <img src="image/shirt1.jpg" alt="">
+            <span>Men Fashion</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="catbox">
+            <img src="image/bag1.jpg" alt="">
+            <span>Handbag</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="catbox">
+            <img src="image/sandal1.jpg" alt="">
+            <span>Sandal</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="catbox">
+            <img src="image/earing1.jpg" alt="">
+            <span>Earrings</span>
+          </div>
+        </a>
+        <a href="#">
+          <div class="catbox">
+            <img src="image/ladies-shirt1.jpg" alt="">
+            <span>Ladies Fashion</span>
+          </div>
+        </a>
+    <!-- End of catbox -->
+    <!-- Start of product -->
+    <!-- Heading block -->
+    <div id="head-block">
+      <h2>Product</h2>
+    </div>
+    <div class="prod-container">
+    <!-- Product rearrange first -->
+      <div class="prod-box">
+          <img src="image/1.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Men Suit</p>
+              <p style="color:white;font-weight:bold;">Price $250</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/2.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Men Suit</p>
+              <p style="color:white;font-weight:bold;">Price $230</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/3.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Sandal</p>
+              <p style="color:white;font-weight:bold;">Price $175</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/4.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Sandal</p>
+              <p style="color:white;font-weight:bold;">Price $130</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/5.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">HandBag</p>
+              <p style="color:white;font-weight:bold;">Price $200</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/6.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">HandBag</p>
+              <p style="color:white;font-weight:bold;">Price $150</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/7.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Earings</p>
+              <p style="color:white;font-weight:bold;">Price $50</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/8.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Earings</p>
+              <p style="color:white;font-weight:bold;">Price $100</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/9.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Sari</p>
+              <p style="color:white;font-weight:bold;">Price $300</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/10.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+              <p style="color:#1aaa1a;">Sari</p>
+              <p style="color:white;font-weight:bold;">Price $270</p>
+              <button type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+    </div>
+  <!-- End of heading block  -->
+      <!-- Offer catalog -->
+      <div id="head-block">
+        <h2>Offer</h2>
+      </div>
+      <div class="prod-box">
+          <img src="image/offer3.gif" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+
+              <p style="color:#1aaa1a;font-weight:bold;">On Men Suit</p>
+              <button style="font-style:italic;font-weight:bold;box-shadow: 0px 10px 48px 0px #ff23a1;" type="button" value="Add To Cart">Avail Offer</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/offer1.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+
+              <p style="color:#1aaa1a;font-weight:bold;">On Handbag</p>
+              <button style="font-style:italic;font-weight:bold;box-shadow: 0px 10px 48px 0px #ff23a1;" type="button" value="Add To Cart">Avail Offer</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/offer2.jpg" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+
+              <p style="color:#1aaa1a;font-weight:bold;">On Earrings</p>
+              <button style="font-style:italic;font-weight:bold;box-shadow: 0px 10px 48px 0px #ff23a1;" type="button" value="Add To Cart">Avail Offer</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/offer5.png" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+
+              <p style="color:#1aaa1a;font-weight:bold;">On Ladies Fashion</p>
+              <button style="font-style:italic;font-weight:bold;box-shadow: 0px 10px 48px 0px #ff23a1;" type="button" value="Add To Cart">Add To Cart</button>
+            </div>
+          </div>
+      </div>
+      <div class="prod-box">
+          <img src="image/offer6.png" alt="men-fashion">
+          <div class="pro-trans">
+            <div class="pro-feature">
+
+              <p style="color:#1aaa1a;font-weight:bold;">On Various Product</p>
+              <button style="font-style:italic;font-weight:bold;box-shadow: 0px 10px 48px 0px #ff23a1;" type="button" value="Add To Cart">See The Upcoming Offer</button>
+            </div>
+          </div>
+      </div>
+
+        <!-- Offer catalog end -->
+
+    </div>
+<!--End of catalog design and container -->
+
+        <!--Code for Footer  -->
+        <div id="head-block">
+          <h2>Footer</h2>
+        </div>
+          <div id="footer">
+            <div class="container">
+                <div class="footer_sub1">
+                  <h2 style="color:#12eaf3;font-style:italic;font-weight:bold;">Our short journey</h2>
+                  <p>This is my first e-comerce template.This is my first e-comerce template.This is my first e-comerce template.This is my first e-comerce template.<span><a href="#">Click here</a></span> to know us more.
+                  </p>
+                </div>
+                <div class="footer_sub2">
+                  <h2 style="color:#12eaf3;font-style:italic;font-weight:bold;margin-left: 25px;">Social media</h2>
+
+                  <div class="font-class">
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
+
+                  </div>
+
+                </div>
+                <div class="footer_sub3">
+                  <h2 style="color:#12eaf3;font-style:italic;font-weight:bold;">Subscribe Us</h2>
+                <div class="sub3">
+                  <input class="sub_btn" type="text"  placeholder="Enter your e-mail id">
+                  <input id="butn" type="button"  value="Subscribe">
+                  <p>Subscribe us to be notified on new arrival and offer as well.</p>
+                </div>
+                </div>
+
+
+            </div>
+          </div>
+        <!-- End of Footer -->
+  </div>
+<!-- End of wrapper -->
+
+
+  </body>
+</html>
